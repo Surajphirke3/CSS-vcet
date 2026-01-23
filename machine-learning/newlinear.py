@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load dataset
-dataset = pd.read_csv('studentstudyhours.csv')
+dataset = pd.read_csv('../data/studentstudyhours.csv')
 
 X = dataset.iloc[:, :-1].values   # Study Hours
 y = dataset.iloc[:, -1].values    # Exam Score

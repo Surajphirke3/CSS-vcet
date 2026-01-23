@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # 2) Importing the dataset
-dataset = pd.read_csv('Salary_Data.csv')
+dataset = pd.read_csv('../data/salary_data.csv')
 
 # Independent variable (Years of Experience)
 X = dataset.iloc[:, :-1].values

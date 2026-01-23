@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load CSV
-df = pd.read_csv("analysis.csv")
+df = pd.read_csv("../data/analysis.csv")
 
 print("Welcome to Python Tools Q&A!")
 print("Type 'exit' to quit.\n")
