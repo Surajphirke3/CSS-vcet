@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load dataset
-dataset = pd.read_csv('studentstudyhours.csv')
+dataset = pd.read_csv('../data/studentstudyhours.csv')
 
 X = dataset.iloc[:, :-1].values   # Study Hours
 y = dataset.iloc[:, -1].values    # Exam Score
@@ -35,7 +35,7 @@ plt.show()
 # 7) Visualising the Test set results
 plt.scatter(X_test, y_test, color='red')
 plt.plot(X_train, regressor.predict(X_train), color='blue')
-plt.title('study jpurs vs scored test')
+plt.title('study hours vs scored test')
 plt.xlabel('study hours')
 plt.ylabel('exam scores')
 plt.show()
