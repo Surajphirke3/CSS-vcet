@@ -35,7 +35,7 @@ plt.show()
 # 7) Visualising the Test set results
 plt.scatter(X_test, y_test, color='red')
 plt.plot(X_train, regressor.predict(X_train), color='blue')
-plt.title('study jpurs vs scored test')
+plt.title('study hours vs scored test')
 plt.xlabel('study hours')
 plt.ylabel('exam scores')
 plt.show()
